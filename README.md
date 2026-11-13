@@ -24,7 +24,7 @@ Se il collegamento esiste già, verifica che punti alla cartella `site/` di ques
 - `site/assets/icon.png`: icona ufficiale per testata, favicon e Apple touch icon.
 - `site/assets/feature-graphic.png`: immagine Open Graph/Twitter fornita dal titolare.
 - `site/assets/fonts/`: DM Sans locale, precaricato con `font-display: swap`, e licenza OFL.
-- `site/sitemap.xml`: le due pagine pubbliche. `.nojekyll` mantiene la pubblicazione statica.
+- `site/sitemap.xml`: le due pagine pubbliche e le due informative sulla privacy (stesso dominio, repository `bada-privacy`), con `lastmod` da aggiornare quando una pagina cambia. `site/robots.txt` indica la sitemap ai motori di ricerca. `.nojekyll` mantiene la pubblicazione statica.
 - `originals/`: i sei poster PNG ricevuti, i PNG sorgente delle schermate (`app-2026-10-19/`), esclusi dalla cartella pubblicata, con i dati di prova e lo script che le ha prodotte.
 - `scripts/check_site.py`: guardia dei file da pubblicare.
 - `scripts/play_links.py`: formato unico dei collegamenti a Google Play e verifica degli URL scritti nell’HTML.
